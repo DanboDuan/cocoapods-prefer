@@ -1,1 +1,1 @@
-require 'cocoapods-prefer/command/prefer'
+require 'cocoapods-prefer/gem_version'
