@@ -85,8 +85,9 @@ module Pod
 
       pod_name = dependency.root_name
       specifications = dislike_lock_specifications_filter(pod_name, specifications)
-      specifications = dislike_specifications_filter(pod_name, specifications)
       specifications = prefer_lock_specifications_filter(pod_name, specifications)
+
+      specifications = dislike_specifications_filter(pod_name, specifications)
       specifications = prefer_specifications_filter(pod_name, specifications)
       specifications
     end

@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsPrefer::VERSION
   spec.authors       = ['bob']
   spec.email         = ['bob170731@gmail.com']
-  spec.description   = %q{A short description of cocoapods-prefer.}
-  spec.summary       = %q{A longer description of cocoapods-prefer.}
-  spec.homepage      = 'https://github.com/EXAMPLE/cocoapods-prefer'
+  spec.description   = %q{cocoapods plugin work with source urls.}
+  spec.summary       = %q{cocoapods plugin work with source urls.}
+  spec.homepage      = 'https://github.com/DanboDuan/cocoapods-prefer'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
