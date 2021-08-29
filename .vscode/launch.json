@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Pod install",
+            "showDebuggerOutput": true,
+            "type": "Ruby",
+            "request": "launch",
+            "program": "/Users/bob/.bundle/vendor/ruby/2.7.0/gems/cocoapods-1.10.2/bin/pod",
+            "cwd": "${workspaceRoot}",
+            "args": ["install"],
+            "useBundler": true
+        },
+        {
+            "name": "Debug CocoaPods Plugin",
+            "showDebuggerOutput": true,
+            "type": "Ruby",
+            "request": "launch",
+            "program": "/Users/bob/.bundle/vendor/ruby/2.7.0/gems/cocoapods-1.10.2/bin/pod",
+            "cwd": "${workspaceRoot}",
+            "args": ["dependency","~/Podfile.lock"],
+            "useBundler": true
+        }
+    ]
+}
