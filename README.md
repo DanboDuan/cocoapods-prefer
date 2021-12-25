@@ -70,9 +70,3 @@ end
 ## Example
 
 see [TestExample](https://github.com/DanboDuan/TestExample)
-
-## Contribute
-
-if you like
-
-![like it](https://raw.githubusercontent.com/DanboDuan/cocoapods-unit-test/master/like_it.jpg)
